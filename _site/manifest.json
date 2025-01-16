@@ -1,0 +1,308 @@
+{
+  "source_base_path": "C:/Users/Admin/source/repos/ase-demo-assignment-anishagiri6165/ase assignment demo",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTest.MyCanvasTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTest.MyCanvasTests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/UnitTest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/UnitTest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.AppCommandFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.AppCommandFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.AppStoredProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.AppStoredProgram.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.CompoundCommandApp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.CompoundCommandApp.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.Form1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.Form1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.IncrementVariableCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.IncrementVariableCommand.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyArray.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyBoolean.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyBoolean.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyCanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyCanvas.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyCircle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyCircle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyClear.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyClear.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyFor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyFor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyIf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyIf.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyInt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyPeek.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyPeek.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyPoke.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyPoke.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyReal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyReal.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyTriangle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyTriangle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.MyWhile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.MyWhile.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ase_assignment_demo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ase_assignment_demo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

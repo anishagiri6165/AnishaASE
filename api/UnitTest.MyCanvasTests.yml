@@ -1,0 +1,570 @@
+### YamlMime:ManagedReference
+items:
+- uid: UnitTest.MyCanvasTests
+  commentId: T:UnitTest.MyCanvasTests
+  id: MyCanvasTests
+  parent: UnitTest
+  children:
+  - UnitTest.MyCanvasTests.Setup
+  - UnitTest.MyCanvasTests.TestDrawToPositionUpdate
+  - UnitTest.MyCanvasTests.TestMoveTo
+  - UnitTest.MyCanvasTests.TestMultilineProgram
+  langs:
+  - csharp
+  - vb
+  name: MyCanvasTests
+  nameWithType: MyCanvasTests
+  fullName: UnitTest.MyCanvasTests
+  type: Class
+  source:
+    remote:
+      path: UnitTest/Test1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-anishagiri6165.git
+    id: MyCanvasTests
+    path: ../UnitTest/Test1.cs
+    startLine: 11
+  assemblies:
+  - UnitTest
+  namespace: UnitTest
+  summary: >-
+    Contains unit tests for the <xref href="ase_assignment_demo.MyCanvas" data-throw-if-not-resolved="false"></xref> class.
+
+    These tests validate the canvas operations like moving to positions, drawing, and generating a bitmap.
+  example: []
+  syntax:
+    content: >-
+      [TestClass]
+
+      public sealed class MyCanvasTests
+    content.vb: >-
+      <TestClass>
+
+      Public NotInheritable Class MyCanvasTests
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestClassAttribute.#ctor
+    arguments: []
+- uid: UnitTest.MyCanvasTests.Setup
+  commentId: M:UnitTest.MyCanvasTests.Setup
+  id: Setup
+  parent: UnitTest.MyCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: Setup()
+  nameWithType: MyCanvasTests.Setup()
+  fullName: UnitTest.MyCanvasTests.Setup()
+  type: Method
+  source:
+    remote:
+      path: UnitTest/Test1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-anishagiri6165.git
+    id: Setup
+    path: ../UnitTest/Test1.cs
+    startLine: 20
+  assemblies:
+  - UnitTest
+  namespace: UnitTest
+  summary: >-
+    Sets up the test environment by initializing a new instance of <xref href="ase_assignment_demo.MyCanvas" data-throw-if-not-resolved="false"></xref>.
+
+    This method is called before each test method.
+  example: []
+  syntax:
+    content: >-
+      [TestInitialize]
+
+      public void Setup()
+    content.vb: >-
+      <TestInitialize>
+
+      Public Sub Setup()
+  overload: UnitTest.MyCanvasTests.Setup*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestInitializeAttribute.#ctor
+    arguments: []
+- uid: UnitTest.MyCanvasTests.TestMoveTo
+  commentId: M:UnitTest.MyCanvasTests.TestMoveTo
+  id: TestMoveTo
+  parent: UnitTest.MyCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestMoveTo()
+  nameWithType: MyCanvasTests.TestMoveTo()
+  fullName: UnitTest.MyCanvasTests.TestMoveTo()
+  type: Method
+  source:
+    remote:
+      path: UnitTest/Test1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-anishagiri6165.git
+    id: TestMoveTo
+    path: ../UnitTest/Test1.cs
+    startLine: 30
+  assemblies:
+  - UnitTest
+  namespace: UnitTest
+  summary: Tests the <xref href="BOOSE.ICanvas.MoveTo(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> method to ensure the position is updated correctly.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMoveTo()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMoveTo()
+  overload: UnitTest.MyCanvasTests.TestMoveTo*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: UnitTest.MyCanvasTests.TestDrawToPositionUpdate
+  commentId: M:UnitTest.MyCanvasTests.TestDrawToPositionUpdate
+  id: TestDrawToPositionUpdate
+  parent: UnitTest.MyCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestDrawToPositionUpdate()
+  nameWithType: MyCanvasTests.TestDrawToPositionUpdate()
+  fullName: UnitTest.MyCanvasTests.TestDrawToPositionUpdate()
+  type: Method
+  source:
+    remote:
+      path: UnitTest/Test1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-anishagiri6165.git
+    id: TestDrawToPositionUpdate
+    path: ../UnitTest/Test1.cs
+    startLine: 44
+  assemblies:
+  - UnitTest
+  namespace: UnitTest
+  summary: Tests the <xref href="BOOSE.ICanvas.DrawTo(System.Int32%2cSystem.Int32)" data-throw-if-not-resolved="false"></xref> method to verify that the canvas position is updated correctly after drawing.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestDrawToPositionUpdate()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestDrawToPositionUpdate()
+  overload: UnitTest.MyCanvasTests.TestDrawToPositionUpdate*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+- uid: UnitTest.MyCanvasTests.TestMultilineProgram
+  commentId: M:UnitTest.MyCanvasTests.TestMultilineProgram
+  id: TestMultilineProgram
+  parent: UnitTest.MyCanvasTests
+  langs:
+  - csharp
+  - vb
+  name: TestMultilineProgram()
+  nameWithType: MyCanvasTests.TestMultilineProgram()
+  fullName: UnitTest.MyCanvasTests.TestMultilineProgram()
+  type: Method
+  source:
+    remote:
+      path: UnitTest/Test1.cs
+      branch: main
+      repo: https://github.com/ASE-Classroom/ase-demo-assignment-anishagiri6165.git
+    id: TestMultilineProgram
+    path: ../UnitTest/Test1.cs
+    startLine: 62
+  assemblies:
+  - UnitTest
+  namespace: UnitTest
+  summary: >-
+    Tests a sequence of canvas operations, including moving, drawing, creating a circle, and writing text.
+
+    Verifies that the resulting bitmap is not null.
+  example: []
+  syntax:
+    content: >-
+      [TestMethod]
+
+      public void TestMultilineProgram()
+    content.vb: >-
+      <TestMethod>
+
+      Public Sub TestMultilineProgram()
+  overload: UnitTest.MyCanvasTests.TestMultilineProgram*
+  attributes:
+  - type: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute
+    ctor: Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute.#ctor
+    arguments: []
+references:
+- uid: ase_assignment_demo.MyCanvas
+  commentId: T:ase_assignment_demo.MyCanvas
+  parent: ase_assignment_demo
+  href: ase_assignment_demo.MyCanvas.html
+  name: MyCanvas
+  nameWithType: MyCanvas
+  fullName: ase_assignment_demo.MyCanvas
+- uid: UnitTest
+  commentId: N:UnitTest
+  href: UnitTest.html
+  name: UnitTest
+  nameWithType: UnitTest
+  fullName: UnitTest
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: ase_assignment_demo
+  commentId: N:ase_assignment_demo
+  href: ase_assignment_demo.html
+  name: ase_assignment_demo
+  nameWithType: ase_assignment_demo
+  fullName: ase_assignment_demo
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnitTest.MyCanvasTests.Setup*
+  commentId: Overload:UnitTest.MyCanvasTests.Setup
+  href: UnitTest.MyCanvasTests.html#UnitTest_MyCanvasTests_Setup
+  name: Setup
+  nameWithType: MyCanvasTests.Setup
+  fullName: UnitTest.MyCanvasTests.Setup
+- uid: BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: MoveTo(int, int)
+  nameWithType: ICanvas.MoveTo(int, int)
+  fullName: BOOSE.ICanvas.MoveTo(int, int)
+  nameWithType.vb: ICanvas.MoveTo(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.MoveTo(Integer, Integer)
+  name.vb: MoveTo(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.MoveTo(System.Int32,System.Int32)
+    name: MoveTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: UnitTest.MyCanvasTests.TestMoveTo*
+  commentId: Overload:UnitTest.MyCanvasTests.TestMoveTo
+  href: UnitTest.MyCanvasTests.html#UnitTest_MyCanvasTests_TestMoveTo
+  name: TestMoveTo
+  nameWithType: MyCanvasTests.TestMoveTo
+  fullName: UnitTest.MyCanvasTests.TestMoveTo
+- uid: BOOSE.ICanvas
+  commentId: T:BOOSE.ICanvas
+  parent: BOOSE
+  isExternal: true
+  name: ICanvas
+  nameWithType: ICanvas
+  fullName: BOOSE.ICanvas
+- uid: BOOSE
+  commentId: N:BOOSE
+  isExternal: true
+  name: BOOSE
+  nameWithType: BOOSE
+  fullName: BOOSE
+- uid: BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+  commentId: M:BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+  parent: BOOSE.ICanvas
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DrawTo(int, int)
+  nameWithType: ICanvas.DrawTo(int, int)
+  fullName: BOOSE.ICanvas.DrawTo(int, int)
+  nameWithType.vb: ICanvas.DrawTo(Integer, Integer)
+  fullName.vb: BOOSE.ICanvas.DrawTo(Integer, Integer)
+  name.vb: DrawTo(Integer, Integer)
+  spec.csharp:
+  - uid: BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: BOOSE.ICanvas.DrawTo(System.Int32,System.Int32)
+    name: DrawTo
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: UnitTest.MyCanvasTests.TestDrawToPositionUpdate*
+  commentId: Overload:UnitTest.MyCanvasTests.TestDrawToPositionUpdate
+  href: UnitTest.MyCanvasTests.html#UnitTest_MyCanvasTests_TestDrawToPositionUpdate
+  name: TestDrawToPositionUpdate
+  nameWithType: MyCanvasTests.TestDrawToPositionUpdate
+  fullName: UnitTest.MyCanvasTests.TestDrawToPositionUpdate
+- uid: UnitTest.MyCanvasTests.TestMultilineProgram*
+  commentId: Overload:UnitTest.MyCanvasTests.TestMultilineProgram
+  href: UnitTest.MyCanvasTests.html#UnitTest_MyCanvasTests_TestMultilineProgram
+  name: TestMultilineProgram
+  nameWithType: MyCanvasTests.TestMultilineProgram
+  fullName: UnitTest.MyCanvasTests.TestMultilineProgram
